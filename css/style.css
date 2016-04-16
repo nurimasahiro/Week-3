@@ -1,0 +1,65 @@
+
+/* center container */
+#container{
+  margin: 0 auto;
+  width: 960px;
+}
+
+
+/* main styles */
+header{
+  background-color: black;
+}
+
+section {
+  background-color: #c6c6c6;
+}
+
+main {
+  height: 500px;
+  background: url(../images/coworking.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.create-box{
+background-color: gray;
+position: absolute;
+width: 300px;
+height: 300px;
+right: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+/* fonts */
+header h1{
+  color: yellow;
+  font-family: Georgia;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+#font1{
+  font-family: Oswald;
+  color: white;
+
+}
+#font2{
+  font-family: Lato;
+  color: white;
+  font-weight: 400;
+
+}
+
+.normal {
+  font-family: Georgia;
+  font-style: italic;
+}
+
+#strike{
+  color: gray;
+  text-decoration: line-through;
+}
