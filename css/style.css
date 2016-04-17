@@ -1,18 +1,24 @@
 
 /* center container */
-#container{
+#container {
   margin: 0 auto;
-  width: 960px;
+  width: 800px;
 }
 
 
 /* main styles */
-header{
+header {
   background-color: black;
+  height: 130px;
+}
+
+nav {
+  position: relative;
 }
 
 section {
   background-color: #c6c6c6;
+  height: 70px;
 }
 
 main {
@@ -20,37 +26,64 @@ main {
   background: url(../images/coworking.jpg);
   background-size: cover;
   position: relative;
-}
-
-.create-box{
-background-color: gray;
-position: absolute;
-width: 300px;
-height: 300px;
-right: 0;
+  /* make position relative to allow aside to position around the main */
 }
 
 header ul li {
   display: inline-block;
 }
 
+header ul {
+  padding-left: 270px;
+  padding-top: 10px;
+}
+
+section p {
+  display: inline-block;
+  font-size: 28px;
+  font-family: Georgia;
+}
+
+aside {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+body article {
+  display: inline-block;
+}
+
+footer {
+  background-color: black;
+  height: 70px;
+}
+
 /* fonts */
-header h1{
+
+header h1 {
   color: yellow;
   font-family: Georgia;
   padding-left: 30px;
   padding-top: 20px;
+  font-weight: bold;
 }
 
-#font1{
+#font1 {
   font-family: Oswald;
   color: white;
+  font-size: 20px;
 
 }
-#font2{
+#font2 {
   font-family: Lato;
   color: white;
   font-weight: 400;
+  font-size: 18px;
 
 }
 
@@ -59,7 +92,54 @@ header h1{
   font-style: italic;
 }
 
-#strike{
+#strike {
   color: gray;
   text-decoration: line-through;
+}
+
+section {
+  text-align: center;
+}
+
+aside h2 {
+  font-family: Lato;
+  font-weight: 900;
+  text-align: center;
+  font-size: 27px;
+}
+
+aside p {
+  font-family: Lato;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+}
+
+aside button {
+  font-family: Oswald;
+  height: 50px;
+  width: 200px;
+  background-color: #f8ff00;
+  position: absolute;
+  right: 50px;
+  top: 270px;
+}
+
+body article h3 {
+  font-family: Georgia;
+}
+
+body article p {
+  font-family: Lato;
+}
+
+body article button {
+  font-family: Oswald;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
 }
